@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef3f8;
+    color: #333;
+}
+
+header {
+    background-color: #183b63;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #245786;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.container {
+    max-width: 650px;
+    margin: 35px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #245786;
+}
+
+h2 {
+    color: #183b63;
+}
+
+form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #245786;
+    border-radius: 12px;
+    background-color: #f8fbff;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 15px 0 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #245786;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #183b63;
+}
+
+form .btn {
+    width: 100%;
+}
+
+.success-icon {
+    color: green;
+    font-size: 60px;
+}
+
+footer {
+    background-color: #183b63;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 35px;
+}
